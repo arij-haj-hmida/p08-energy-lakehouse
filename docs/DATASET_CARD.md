@@ -6,7 +6,7 @@
 - Contact : innovation@ukpowernetworks.co.uk
 - Date de consultation et de téléchargement : 03/11/2026
 - Période : novembre 2011 à février 2014, relevés toutes les 30 minutes
-- Licence : Creative Commons Attribution (attribution à UK Power Networks)
+- Licence : Creative Commons Attribution 4.0, https://creativecommons.org/licenses/by/4.0/ (attribution à UK Power Networks). Dernière mise à jour de la fiche : 7 avril 2022
 
 ## Ressources téléchargées
 | Ressource | Nom d'origine | Taille |

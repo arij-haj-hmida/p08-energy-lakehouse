@@ -6,8 +6,8 @@
 
 |Réf|Exigence|Responsable|Statut|Preuve|
 |-|-|-|-|-|
-|F01|Télécharger et figer les ressources officielles|Arij|validé|docs/DATASET_CARD.md, docs/checksums.txt|
-|F02|Normaliser les relevés CSV|Arij|à faire||
+|F01|Télécharger et figer les ressources officielles|Arij|validé|docs/DATASET\_CARD.md, docs/checksums.txt|
+|F02|Normaliser les relevés CSV|Arij|en cours|docs/conventions.md|
 |F03|Organiser les zones HDFS|Arij|à faire||
 |F04|Exécuter MR1 Java|Nour|à faire||
 |F05|Exécuter MR2 Java|Nourhenne|à faire||
@@ -25,12 +25,12 @@
 |-|-|-|-|-|
 |NF01|Exactitude|Nour (MR1) / Nourhenne (MR2)|à faire||
 |NF02|Performance (2 volumes)|Nour|à faire||
-|NF03|Robustesse|Arij|en cours |docs/conventions.md|
-|NF04|Reproductibilité|Arij|à faire||
-|NF05|Traçabilité|Arij|en cours |docs/conventions.md|
+|NF03|Robustesse|Arij|validé|docs/conventions.md|
+|NF04|Reproductibilité|Arij|en cours|README.md|
+|NF05|Traçabilité|Arij|validé|docs/conventions.md|
 |NF06|Confidentialité|Arij|à faire||
 |NF07|Maintenabilité|Nourhenne|à faire||
-|NF08|Disponibilité|Arij|à faire||
+|NF08|Disponibilité|Arij|en cours|README.md|
 |NF09|Lakehouse (snapshots)|Nour|à faire||
 
 ## Tests
