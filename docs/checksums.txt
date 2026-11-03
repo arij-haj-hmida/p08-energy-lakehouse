@@ -1,0 +1,6 @@
+149a6a9c43c622fd0a14b7d11be055665317d3018d9fb7e1043bd51420bfaea5  data/raw/partitioned.zip  (original : Partitioned LCL Data.zip, 795722689 octets)
+8a2eff6dcb737aee96cfa6c357d2947604d7f812896405c2ab5f98433d2cb150  data/raw/tariffs/tariffs.xlsx  (original : Tariffs.xlsx, 245384 octets)
+14730e141e810a7da0e31dbd07391ef9503f5d5533d49d5262b0599cf9947576  data/raw/meters/LCL-June2015v2_84.csv  (50860776 octets, 1000001 lignes, groupe Std)
+74fe2907c34769c49d831e3ce320c39185886295e2861b244d041ecd9b13028e  data/raw/meters/LCL-June2015v2_150.csv  (50894128 octets, 1000001 lignes, groupe ToU)
+4997141df1efb62488305936c3d2aee395c456f475542bfbdcd5a2145479bd61  data/raw/spare/LCL-June2015v2_0.csv  (50755532 octets, 1000001 lignes, groupe Std, hors lot, réserve pour S6)
+Téléchargés le 03/11/2026 depuis le London Datastore
