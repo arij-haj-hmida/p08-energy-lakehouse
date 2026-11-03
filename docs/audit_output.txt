@@ -1,0 +1,80 @@
+
+== data/raw/meters\LCL-June2015v2_150.csv (1000000, 4) ['LCLid', 'stdorToU', 'DateTime', 'KWH/hh (per half hour)']
+En-têtes répétés : 0
+Non numériques : 34 ['Null']
+Négatives : 0 | Zéros : 2651 | Max kWh/30min : 4.25
+Dates illisibles : 0 | plage : 2012-05-03 10:30:00 -> 2014-02-28 00:00:00
+Exemple brut : 2012-09-23 03:30:00.0000000
+Lignes en 2013 : 575937
+Minutes hors 0/30 : 34
+Doublons (foyer, heure) : 1386
+Doublons exacts : 1386
+stdorToU
+ToU    1000000
+Name: count, dtype: int64
+Foyers : 34
+                                 min  ...         count
+count                             34  ...     34.000000
+mean   2012-06-08 20:09:42.352941312  ...  29411.764706
+min              2012-05-03 10:30:00  ...  17315.000000
+25%              2012-05-04 10:07:30  ...  28678.000000
+50%              2012-06-06 12:00:00  ...  28722.000000
+75%              2012-07-10 09:30:00  ...  31824.000000
+max              2012-09-23 03:30:00  ...  31923.000000
+std                              NaN  ...   3176.940410
+
+[8 rows x 3 columns]
+
+== data/raw/meters\LCL-June2015v2_84.csv (1000000, 4) ['LCLid', 'stdorToU', 'DateTime', 'KWH/hh (per half hour)']
+En-têtes répétés : 0
+Non numériques : 42 ['Null']
+Négatives : 0 | Zéros : 17114 | Max kWh/30min : 5.4899998
+Dates illisibles : 0 | plage : 2012-10-04 12:30:00 -> 2014-02-28 00:00:00
+Exemple brut : 2014-01-24 08:30:00.0000000
+Lignes en 2013 : 714963
+Minutes hors 0/30 : 42
+Doublons (foyer, heure) : 1394
+Doublons exacts : 1394
+stdorToU
+Std    1000000
+Name: count, dtype: int64
+Foyers : 43
+                                 min  ...         count
+count                             43  ...     43.000000
+mean   2012-10-18 03:23:43.255813888  ...  23255.813953
+min              2012-10-04 12:30:00  ...   1666.000000
+25%              2012-10-05 10:30:00  ...  24374.000000
+50%              2012-10-08 09:00:00  ...  24381.000000
+75%              2012-10-08 11:15:00  ...  24520.000000
+max              2014-01-24 08:30:00  ...  24564.000000
+std                              NaN  ...   4594.165846
+
+[8 rows x 3 columns]
+
+== Tariffs / feuille : Sheet1 (17520, 2)
+       TariffDateTime  Tariff
+0 2013-01-01 00:00:00  Normal
+1 2013-01-01 00:30:00  Normal
+2 2013-01-01 01:00:00  Normal
+3 2013-01-01 01:30:00  Normal
+4 2013-01-01 02:00:00  Normal
+5 2013-01-01 02:30:00  Normal
+6 2013-01-01 03:00:00  Normal
+7 2013-01-01 03:30:00  Normal
+8 2013-01-01 04:00:00  Normal
+9 2013-01-01 04:30:00  Normal
+TariffDateTime    datetime64[ns]
+Tariff                    object
+dtype: object
+
+== Tariffs / feuille : Sheet2 (0, 0)
+Empty DataFrame
+Columns: []
+Index: []
+Series([], dtype: object)
+
+== Tariffs / feuille : Sheet3 (0, 0)
+Empty DataFrame
+Columns: []
+Index: []
+Series([], dtype: object)
