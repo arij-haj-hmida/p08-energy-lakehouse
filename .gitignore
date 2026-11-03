@@ -1,0 +1,7 @@
+data/
+*.csv
+*.zip
+*.xlsx
+target/
+.idea/
+__pycache__/
