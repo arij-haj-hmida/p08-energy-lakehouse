@@ -7,11 +7,11 @@
 |Réf|Exigence|Responsable|Statut|Preuve|
 |-|-|-|-|-|
 |F01|Télécharger et figer les ressources officielles|Arij|validé|docs/DATASET\_CARD.md, docs/checksums.txt|
-|F02|Normaliser les relevés CSV|Arij|en cours|docs/conventions.md|
-|F03|Organiser les zones HDFS|Arij|à faire||
+|F02|Normaliser les relevés CSV|Nour|en cours|docs/conventions.md|
+|F03|Organiser les zones HDFS|Nour|à faire||
 |F04|Exécuter MR1 Java|Nour|à faire||
 |F05|Exécuter MR2 Java|Nourhenne|à faire||
-|F06|Contrôler la qualité|Arij|à faire||
+|F06|Contrôler la qualité|Nour|à faire||
 |F07|Publier une vraie couche Iceberg|Nour|à faire||
 |F08|Produire les profils horaires|Nourhenne|à faire||
 |F09|Analyser pics et tarifs|Nourhenne|à faire||
@@ -30,7 +30,7 @@
 |NF05|Traçabilité|Arij|validé|docs/conventions.md|
 |NF06|Confidentialité|Arij|à faire||
 |NF07|Maintenabilité|Nourhenne|à faire||
-|NF08|Disponibilité|Arij|en cours|README.md|
+|NF08|Disponibilité|Nour|en cours|README.md|
 |NF09|Lakehouse (snapshots)|Nour|à faire||
 
 ## Tests
