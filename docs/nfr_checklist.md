@@ -12,7 +12,7 @@
 |F04|Exécuter MR1 Java|Nour|à faire||
 |F05|Exécuter MR2 Java|Nourhenne|à faire||
 |F06|Contrôler la qualité|Nour|à faire||
-|F07|Publier une vraie couche Iceberg|Nour|à faire||
+|F07|Publier une vraie couche Iceberg|Nour|en cours|docs/iceberg_test.md|
 |F08|Produire les profils horaires|Nourhenne|à faire||
 |F09|Analyser pics et tarifs|Nourhenne|à faire||
 |F10|Justifier l'architecture|Arij|en cours|docs/architecture.md|
@@ -31,7 +31,7 @@
 |NF06|Confidentialité|Arij|à faire||
 |NF07|Maintenabilité|Nourhenne|à faire||
 |NF08|Disponibilité|Nour|en cours|README.md|
-|NF09|Lakehouse (snapshots)|Nour|à faire||
+|NF09|Lakehouse (snapshots)|Nour|en cours|docs/iceberg_test.md|
 
 ## Tests
 

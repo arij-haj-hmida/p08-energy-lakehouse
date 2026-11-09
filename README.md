@@ -5,13 +5,16 @@ Projet Big Data, Mastère 1 IA & DS, ISIMa, 2026/2027. Équipe : Arij, Nour, Nou
 Chaîne HDFS, deux jobs Hadoop MapReduce Java (MR1, MR2) et Lakehouse Apache Iceberg à partir des relevés demi-horaires de compteurs intelligents de Londres. Architecture : docs/architecture.md.
 
 ## 2. Prérequis et versions
-| Composant | Version | État |
+| Composant | Version | Vérification |
 |---|---|---|
-| Python | 3.14.0 | utilisé pour l'audit |
+| Python | 3.14.0 (PC Arij), 3.13.16 (PC Nour) | py --version |
 | pandas, numpy, openpyxl | 2.3.3, 2.3.4, 3.1.5 (requirements.txt) | utilisés pour l'audit |
-| Docker Desktop | à renseigner | semaine 2 |
-| JDK, Hadoop, Maven | à renseigner | semaine 2 |
-| Hive 4 ou Spark SQL, Iceberg | à renseigner après test de compatibilité | semaine 2 |
+| Docker Desktop | 4.34.2, moteur 27.2.0, Compose 2.29.2 | docker version |
+| Hadoop (cluster) | apache/hadoop:3.4.1 (provisoire) | hadoop version dans le conteneur |
+| Java | OpenJDK 1.8 dans les images Hive et Hadoop | java -version dans le conteneur |
+| Maven | a renseigner | semaine 3 |
+| Hive | apache/hive:4.0.0, Hadoop 3.3.6 embarqué | docs/iceberg_test.md |
+| Iceberg | hive-iceberg-handler-4.0.0, test réussi | docs/iceberg_test.md |
 
 ## 3. Acquisition des données
 - Source : SmartMeter Energy Consumption Data in London Households, UK Power Networks, London Datastore.
